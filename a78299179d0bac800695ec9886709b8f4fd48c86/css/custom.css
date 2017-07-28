@@ -69,3 +69,14 @@ p, h4 {
 .diagram {
   max-width: 100%;
 }
+
+#video-controls {
+  position: fixed;
+  z-index: 99;
+}
+
+#mute, #play-pause {
+  border: none !important;
+  max-width: 60px;
+  margin-top: 10px;
+}

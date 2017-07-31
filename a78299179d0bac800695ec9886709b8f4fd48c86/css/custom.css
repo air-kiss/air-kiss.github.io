@@ -82,6 +82,14 @@ p, h3, h8, label {
   /*line-height: 0.4;*/
 }
 
+.divider {
+  min-height: 50px;
+}
+
+.small-divider {
+  min-height: 20px;
+}
+
 
 .videoWrapper {
 	position: relative;

@@ -31,20 +31,27 @@
     position: absolute;
 }
 
+.logo-wrapper {
+  width:100%;
+  height:100vh;
+  /*padding-top:40%;*/
+}
+
 .logo {
-
-
+  /*top: 50% !important;*/
   position: absolute;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
+  top:50%;
+  left: 50% !important;
   transform: translate(-50%, -50%);
   max-width: 300px;
-  /*display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 20%;
-  padding-bottom: 40%;*/
+  /*display: none;*/
+
+  transition: 5s ease;
+
+}
+
+.in-line {
+  display: inline;
 }
 
 .video-container .filter {
@@ -55,9 +62,26 @@
     height: 100%;
 }
 
-p, h3 {
-  color: white;
+.content {
+  margin-top: -10%;
 }
+
+p, h3, h8, label {
+  color: white;
+  font-family: 'airkiss';
+}
+
+.glowing {
+  color: black;
+  text-shadow: #fff 0px 0px 1px, #fff 0px 0px 1px, #fff 0px 0px 1px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.quote {
+  float: right !important;
+  /*line-height: 0.4;*/
+}
+
 
 .videoWrapper {
 	position: relative;
@@ -86,6 +110,11 @@ p, h3 {
   border: none !important;
   max-width: 60px;
   margin-top: 10px;
+}
+
+@font-face {
+    font-family: 'airkiss';
+    src: url(../font/AkzidenzGroteskPro-MdEx.otf);
 }
 
 /* =============================================================================
@@ -120,6 +149,11 @@ p, h3 {
 .read-more-trigger {
   cursor: pointer;
   display: inline-block;
+
+  color: black;
+  text-shadow: #fff 0px 0px 1px, #fff 0px 0px 1px, #fff 0px 0px 1px;
+  /*text-decoration: underline;*/
+  -webkit-font-smoothing: antialiased;
   /*padding: 0 .5em;*/
   /*color: #666;*/
   /*font-size: .9em;*/

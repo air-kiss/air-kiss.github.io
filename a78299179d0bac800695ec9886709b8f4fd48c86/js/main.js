@@ -36,6 +36,12 @@ $allVideos.each(function() {
 $(window).resize(function() {
 
   var newWidth = $fluidEl.width();
+  var newHeight = $(window).height(); //new, added for logo
+  var halfHeight = newHeight/2;
+
+  //make sure logo stays where it should be
+  $('.logo-wrapper').css("height", newHeight);
+  $('.logo').css("top", halfHeight);
 
   // Resize all videos according to their own aspect ratio
   $allVideos.each(function() {
@@ -56,6 +62,11 @@ $(window).resize(function() {
 $(window).load(function() {
   var video = document.getElementById("video");
   video.paused = false;
+
+  var height = $(window).height();
+  var half = height/2;
+  // $('.logo-wrapper').css("height", height);
+  $('.logo').css("top", half);
 
   // Buttons
   var playButton = document.getElementById("play-pause");
@@ -93,8 +104,14 @@ $(window).load(function() {
     // Update the button text
     muteButton.innerHTML = "Mute";
   }
+  });
+
 });
 
+$(document).ready(function() {
+  // $('.logo').css({
+  //   "display" : 'block'
+  // });
 });
 
 // window.onload = function() {

@@ -83,7 +83,7 @@ p, h3, h8, label {
 }
 
 .smaller-text {
-  font-size: 0.8em;
+  font-size: 0.8em !important;
 }
 
 .divider {
@@ -144,6 +144,9 @@ p, h3, h8, label {
   .name {
     margin-bottom: 1rem !important;
   }
+  .read-more-wrap {
+    font-size: 1em !important;
+  }
 }
 
 
@@ -160,6 +163,10 @@ p, h3, h8, label {
   max-height: 0;
   font-size: 0;
   transition: .25s ease;
+}
+
+.read-more-wrap {
+  font-size: 0.8em;
 }
 
 .read-more-state:empty ~ .read-more-wrap {

@@ -122,7 +122,6 @@ $(document).ready(function() {
       $('.read-more-wrap').css({
 
         "margin-top" : -500
-        // "display" : 'none'
 
       });
 

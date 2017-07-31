@@ -82,6 +82,10 @@ p, h3, h8, label {
   /*line-height: 0.4;*/
 }
 
+.smaller-text {
+  font-size: 0.8em;
+}
+
 .divider {
   min-height: 50px;
 }
@@ -109,6 +113,10 @@ p, h3, h8, label {
   max-width: 100%;
 }
 
+.metahaven {
+  margin-top: -20px;
+}
+
 #video-controls {
   position: fixed;
   z-index: 99;
@@ -125,6 +133,20 @@ p, h3, h8, label {
     src: url(../font/AkzidenzGroteskPro-MdEx.otf);
 }
 
+@media (max-width: 550px) {
+
+  .disappear-when-mobile {
+    display: none;
+  }
+  .empty {
+    display: none;
+  }
+  .name {
+    margin-bottom: 1rem !important;
+  }
+}
+
+
 /* =============================================================================
   READ MORE
 ============================================================================= */
@@ -138,6 +160,11 @@ p, h3, h8, label {
   max-height: 0;
   font-size: 0;
   transition: .25s ease;
+}
+
+.read-more-state:empty ~ .read-more-wrap {
+  margin-top: -500px;
+  /*max-height: 20px;*/
 }
 
 .read-more-state:checked ~ .read-more-wrap .read-more-target {

@@ -13,7 +13,6 @@
 //   });
 // })();
 
-
 // Find all YouTube videos
 var $allVideos = $("iframe[src^='//www.youtube.com']"),
 
@@ -112,6 +111,25 @@ $(document).ready(function() {
   // $('.logo').css({
   //   "display" : 'block'
   // });
+  $('input[type=checkbox]').click(function() {
+    if ($(this).is(':checked')) {
+      console.log("checked!")
+      $('.read-more-wrap').css({
+        "margin-top" : 0
+      });
+    } else {
+      console.log("unchecked!")
+      $('.read-more-wrap').css({
+
+        "margin-top" : -500
+        // "display" : 'none'
+
+      });
+
+    }
+
+
+  });
 });
 
 // window.onload = function() {

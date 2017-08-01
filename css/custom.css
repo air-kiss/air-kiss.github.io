@@ -176,8 +176,8 @@ p.glowing {
   transition: .25s ease;
 }
 
-.read-more-wrap {
-  font-size: 0.8em;
+.read-more-wrap, .read-more-trigger {
+  font-size: 0.9em;
 }
 
 .read-more-state:empty ~ .read-more-wrap {

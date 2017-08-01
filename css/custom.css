@@ -69,8 +69,8 @@
 p, h1, h2, h3, h4, h5, h6, h7, h8, label {
   color: white;
   font-family: 'airkiss';
-  font-kerning: 0.4px;
-  letter-spacing: 0.4px;
+  font-kerning: 0.2px;
+  letter-spacing: 0.2px;
 }
 p {
   font-size: 1.3em;
@@ -94,7 +94,7 @@ p.glowing {
 }
 
 .smaller-text {
-  font-size: 0.9em !important;
+  font-size: 1.1em !important;
 }
 
 .divider {
@@ -177,7 +177,7 @@ p.glowing {
 }
 
 .read-more-wrap, .read-more-trigger {
-  font-size: 0.9em;
+  font-size: 1.3em;
 }
 
 .read-more-state:empty ~ .read-more-wrap {

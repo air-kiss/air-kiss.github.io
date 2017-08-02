@@ -76,9 +76,6 @@ p {
   font-size: 1.3em;
 }
 
-.custom-underline{
-    box-shadow: inset 0 0px 0 white, inset 0 -1px 0 black
-}
 
 a, a:hover {
   text-decoration: none;
@@ -90,7 +87,7 @@ a, a:hover {
   color: inherit;
 }
 
-p.glowing {
+.glowing {
   /*-webkit-text-fill-color: transparent !important;*/
   color: black;
   text-shadow: #fff 0px 0px 1px, #fff 0px 0px 1px, #fff 0px 0px 1px;

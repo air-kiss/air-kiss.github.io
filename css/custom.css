@@ -14,6 +14,9 @@
   VIDEO
 ============================================================================= */
 
+body {
+  background-color: black;
+}
 .video {
   position: fixed;
   top: 50%; left: 50%;
@@ -63,7 +66,7 @@
 }
 
 .content {
-  margin-top: -4%;
+  margin-top: -6%;
 }
 
 p, h1, h2, h3, h4, h5, h6, h7, h8, label {
@@ -155,6 +158,9 @@ a, a:hover {
   .disappear-when-mobile {
     display: none;
   }
+  .content {
+    margin-top: -14%;
+  }
   .empty {
     display: none;
   }
@@ -164,6 +170,7 @@ a, a:hover {
   .read-more-wrap {
     font-size: 1em !important;
   }
+
 }
 
 

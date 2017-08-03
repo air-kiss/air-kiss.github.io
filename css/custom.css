@@ -72,8 +72,8 @@ body {
 p, h1, h2, h3, h4, h5, h6, h7, h8, label {
   color: white;
   font-family: 'airkiss';
-  font-kerning: 0.2px;
-  letter-spacing: 0.2px;
+  font-kerning: 0.7px;
+  letter-spacing: 0.7px;
 }
 p {
   font-size: 1.3em;
